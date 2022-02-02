@@ -18,11 +18,6 @@ function handleMessage(msg: Message) {
   const re = /^(?:Wordle )(?<number>[0-9]+) (?<attemps>[0-6])\/6[\n]*(?<guesses>[⬛🟨🟩\n]*)+/;
   const match = msg.content.match(re);
   if (match === null) return;
-  if (msg.channel instanceof DMChannel) {
-
-  } else if (msg.channel instanceof TextChannel) {
-
-  }
   console.log(msg.channel);
   console.log(msg.author);
   console.log(match.groups);
