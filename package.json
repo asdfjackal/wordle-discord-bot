@@ -19,8 +19,9 @@
   "homepage": "https://github.com/asdfjackal/wordle-discord-bot#readme",
   "devDependencies": {
     "discord.js": "^13.6.0",
-    "typescript": "^4.5.5",
+    "dotenv": "^15.0.0",
     "nodemon": "^2.0.15",
-    "tsc-watch": "^4.6.0"
+    "tsc-watch": "^4.6.0",
+    "typescript": "^4.5.5"
   }
 }
